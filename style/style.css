@@ -167,7 +167,7 @@ body {
 
 /* contact */
 .contact {
-  height: 100vh;
+  height: 95vh;
   background: linear-gradient(90deg, #3b8aac 0%, #7bcdf0 100%);
 }
 
@@ -176,7 +176,7 @@ body {
   flex-direction: column; /* Susun elemen ke bawah */
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
   gap: 20px; /* Atur jarak antar elemen */
 }
 
@@ -246,13 +246,12 @@ body {
   margin: 0; /* Hilangkan margin default */
 }
 
-.container-contact .footer {
+.footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  margin: 100px;
-  padding: 100px;
-
+  padding: 11px;
+  background: linear-gradient(90deg, #3b8aac 0%, #7bcdf0 100%);
   color: white;
   font-size: 14px;
 }
