@@ -65,6 +65,16 @@ body {
   padding: 50px;
 }
 
+#profile-explain {
+  display: flex;
+  flex-direction: column; /* Stacks children (h1 and p) vertically */
+  align-items: center; /* Centers text */
+  text-align: center; /* Ensures text stays centered */
+  gap: 10px; /* Adds spacing between h1 and p */
+  color: #3b8aac;
+}
+
+
 .col .circle-profile {
   position: relative;
   width: 320px;
@@ -114,7 +124,7 @@ body {
 /* cv */
 
 .cv {
-  height: 100vh;
+  height: 100vh auto;
   background: linear-gradient(90deg, #3b8aac 0%, #7bcdf0 100%);
 }
 
